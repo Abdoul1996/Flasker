@@ -1,1 +1,4 @@
-<h1> Hello {{name | lower}}</h1>
+{% extends "base.html" %}
+{% block content%}<br/>
+    <h1> Hello {{name | title }}</h1>
+{%endblock%}
